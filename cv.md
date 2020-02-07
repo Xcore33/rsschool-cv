@@ -1,4 +1,4 @@
-# __*Ihar* Soltan__ 
+# __**Ihar* Soltan__ 
 ## __*Future* Junior Developer__
 
 

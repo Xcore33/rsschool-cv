@@ -1,0 +1,74 @@
+html {
+    background-color: rgba(224, 219, 214, 0.863);
+}
+.container {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: block;
+}
+.box {
+    border: solid;
+    border-radius: 8px;
+    border-color: grey;
+    background-color: rgba(199, 191, 191, 0.6);
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+
+.my_photo {
+    max-height: 400px;
+    display: flex;
+    border-style: inset;
+    border-color: grey;
+    border-radius: 15px 30px 5px 40px;
+}
+
+h1, h2 {
+    font-weight: bolder;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#box_contacts, #box_skills, #box_experience, #box_language {
+    background-color: peru;
+}
+
+#explanation {
+    color: peru;
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: black 0 0 10px;
+    margin-left: 18%;
+}
+h1, #language_text {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em peru; 
+}
+
+h2 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgba(202, 174, 127, 0.692); 
+  }
+
+p, ul, #email {
+    font-weight: 550;
+    color: black;
+}
+
+p, #email {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.image_my {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#language_text {
+    text-align: center;
+    font-size: larger;
+}
+

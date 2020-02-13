@@ -1,74 +1,93 @@
 html {
-    background-color: rgba(224, 219, 214, 0.863);
+  background-color: rgba(224, 219, 214, 0.863);
 }
 .container {
-    font-family: Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: block;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  font-size: 14px;
+  font-family: Helvetica,Arial,sans-serif;
 }
+
 .box {
-    border: solid;
-    border-radius: 8px;
-    border-color: grey;
-    background-color: rgba(199, 191, 191, 0.6);
-    padding-bottom: 15px;
-    overflow-x: auto;
+  padding-bottom: 15px;
+  overflow-x: auto;
+
+  background-color: rgba(199, 191, 191, 0.6);
+  border: solid;
+  border-color: grey;
+  border-radius: 8px;
 }
 
-.my_photo {
-    max-height: 400px;
-    display: flex;
-    border-style: inset;
-    border-color: grey;
-    border-radius: 15px 30px 5px 40px;
+.my-photo {
+  display: flex;
+  max-height: 400px;
+  margin: 0 auto;
+
+  border-style: inset;
+  border-color: grey;
+  border-radius: 15px 30px 5px 40px;
 }
 
-h1, h2 {
-    font-weight: bolder;
-    justify-content: space-around;
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 10px;
+h1,
+h2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+  font-weight: bolder;
 }
 
-#box_contacts, #box_skills, #box_experience, #box_language {
-    background-color: peru;
+#box-contacts,
+#box-skills,
+#box-experience,
+#box-language {
+  background-color: peru;
 }
 
 #explanation {
-    color: peru;
-    font-weight: bolder;
-    font-size: large;
-    text-shadow: black 0 0 10px;
-    margin-left: 18%;
+  margin-left: 40%;
+
+  font-weight: bolder;
+  font-size: large;
+  color: peru;
+  text-shadow: black 0 0 10px;
 }
-h1, #language_text {
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em peru; 
+
+h1,
+#language-text {
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em peru;
 }
 
 h2 {
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgba(202, 174, 127, 0.692); 
-  }
-
-p, ul, #email {
-    font-weight: 550;
-    color: black;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgba(202, 174, 127, 0.692);
 }
 
-p, #email {
-    margin-left: 15px;
-    margin-right: 15px;
+p,
+ul,
+#email,
+.about-contacts__link {
+  font-weight: 600;
+  color: black;
 }
 
-.image_my {
-    width: 300px;
-    margin: 0 auto;
+p,
+#email {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-#language_text {
-    text-align: center;
-    font-size: larger;
+#language-text {
+  font-size: larger;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  text-align: center;
 }
 

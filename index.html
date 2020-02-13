@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -11,26 +11,32 @@
 
 <body>
     <div class="container" id="container">
-        <div class="box" id="box_title">
+
+        <div class="box" id="box-title">
             <h1>Ihar Soltan</h1>
-            <div class="image_my" id="myface">
-                <img class="my_photo" src="myface.jpg" alt="Моё фото">
+
+            <div class="image-my" id="myface">
+                <img class="my-photo" src="myface.jpg" alt="Моё фото" width="300">
                 <a id="explanation"><em>Future Junior Developer</em></a>
             </div>
+
         </div>
-        <div class="box" id="box_contacts">
+
+        <div class="box" id="box-contacts">
             <h2>Contacts</h2>
-            <p>Phone:+375 29 802 86 86</p>
+            <p>Phone:+375 (29) 802 86 86</p>
             <p>GitHub: Xcore33</p>
-            <a href="mailto: mauler1987@gmail.com" id="email">Send Email</a>
+            <a href="mailto:mauler1987@gmail.com" id="email">Send Email</a>
         </div>
-        <div class="box" id="box_summary">
+
+        <div class="box" id="box-summary">
             <h2>Summary</h2>
             <p>Design engineer with world experience in building timber frame buildings. To guide the
                 development of frame construction of brand "Asnova". New to the JS world.
             </p>
         </div>
-        <div class="box" id="box_skills">
+
+        <div class="box" id="box-skills">
             <h2>Skills</h2>
             <ul>
                 <li>
@@ -70,30 +76,25 @@
                 </li>
             </ul>
         </div>
-        <div class="box" id="box_examples">
+
+        <div class="box" id="box-examples">
             <h2>Code examles</h2>
-            <xmp>
-                <!DOCTYPE html>
-                <html>
-
-                <body>
-
-                    <h2>External JavaScript</h2>
-
-                    <p id="demo">A Paragraph.</p>
-
-                    <button type="button" onclick="myFunction()">Try it</button>
-
-                    <p>(myFunction is stored in an external file called "myScript.js")</p>
-
-                    <script src="myScript.js"></script>
-
-                </body>
-
-                </html>
-            </xmp>
+            <pre>
+                <code>
+                    // vendor/bin/phpunit SimpleTest.php
+                    require_once "vendor/autoload.php";
+                    define("APP_PATH",
+                    realpath(dirname(__FILE__).'/../../apps/TestApp/build/release-iphonesimulator/TestApp.app'));
+                    define("APP_PATH",
+                    realpath(dirname(__FILE__).'/../../apps/TestApp/build/release-iphonesimulator/TestApp-iphonesimulator.app'));
+                    if (!APP_PATH) {
+                    die("App did not exist!");
+                    }
+             </code>
+            </pre>
         </div>
-        <div class="box" id="box_experience">
+
+        <div class="box" id="box-experience">
             <h2>Experience</h2>
             <ul>
                 <li>Wood construction engineer with 10+ years experience</li>
@@ -101,7 +102,8 @@
                 <li>Head of department - organization of work of creative people</li>
             </ul>
         </div>
-        <div class="box" id="box_education">
+
+        <div class="box" id="box-education">
             <h2>Education</h2>
             <ul>
                 <li>College of Architecture and Civil Engineering - "construction technician"</li>
@@ -109,10 +111,21 @@
                 <li>Online Self-study - "Learn JavaScript from scratch", "Codeacademy", "Youtube", etc.</li>
             </ul>
         </div>
-        <div class="box" id="box_language">
+
+        <div class="box" id="box-language">
             <h2>English Level</h2>
-            <p id="language_text">B1</p>
+            <p id="language-text">B1</p>
         </div>
+
+        <footer class="footer">
+            <div class="about">
+                <div class="about-contacts">
+                    <a class="about-contacts__link" href="tel:+375298028686"><b>tel</b>: +375 (29) 802 86 86</a> |
+                    <a class="about-contacts__link" href="mailto:mauler1987@gmail.com"><b>email</b>:mauler1987@gmail.com</a> |
+                </div>
+            </div>
+        </footer>
+
     </div>
 </body>
 
